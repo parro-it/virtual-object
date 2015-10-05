@@ -10,7 +10,7 @@
   "bugs": {
     "url": "https://github.com/parro-it/virtual-object/issues"
   },
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "src/index.js",
   "engines": {
     "node": ">=4.1"
