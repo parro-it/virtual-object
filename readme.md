@@ -1,6 +1,6 @@
 # virtual-object
 
-
+simplified es2015 proxy
 
 [![Travis Build Status](https://img.shields.io/travis/parro-it/virtual-object.svg)](http://travis-ci.org/parro-it/virtual-object)
 [![NPM module](https://img.shields.io/npm/v/virtual-object.svg)](https://npmjs.org/package/virtual-object)
@@ -21,9 +21,11 @@ npm install --save virtual-object
 ## Usage
 
 ```javascript
-  import virtualObject from 'virtual-object'
+  import VirtualObject from 'virtual-object'
 ```
 
-## Credits
-
 ## License
+
+The MIT License (MIT)
+
+Copyright (c) 2015 Andrea Parodi

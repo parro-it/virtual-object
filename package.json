@@ -1,16 +1,22 @@
 {
   "name": "virtual-object",
-  "description": "",
+  "description": "simplified es2015 proxy",
+  "keywords": [
+    "simplified",
+    "es2015",
+    "proxy"
+  ],
   "repository": "https://github.com/parro-it/virtual-object.git",
   "bugs": {
     "url": "https://github.com/parro-it/virtual-object/issues"
   },
   "version": "0.0.0",
   "main": "src/index.js",
-  "engines" : { "node" : ">=4.1" },
+  "engines": {
+    "node": ">=4.1"
+  },
   "author": "parro-it",
   "scripts": {
-
     "test": "test-node",
     "debug": "debug",
     "cover": "cover-node",
@@ -19,7 +25,6 @@
     "release-patch": "release-patch",
     "lint": "lint",
     "prepublish": "check"
-
   },
   "eslintConfig": {
     "extends": "devenv"
@@ -27,9 +32,11 @@
   "babel": {
     "stage": 4
   },
-
-  "devDependencies": {},
+  "devDependencies": {
+    "tape-async": "*"
+  },
   "install-this-global-to-develop": {
     "esenv": "^1.1.0"
-  }
+  },
+  "license": "MIT"
 }
