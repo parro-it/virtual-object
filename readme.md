@@ -22,6 +22,35 @@ npm install --save virtual-object
 
 ```javascript
   import VirtualObject from 'virtual-object'
+
+  class Simple extends VirtualObject {
+
+    // if you override get method, it will be called
+    // when a property is read on an instance of your class.
+    get(name) {
+
+    }
+
+    // if you override set method, it will be called
+    // when a property value is written on an instance of your class.
+    set(name, value) {
+
+    }
+
+    // if you override delete method, it will be called
+    // when a property is deleted on an instance of your class.
+    delete(name, value) {
+
+    }
+
+    // if you override keys method, it will be called
+    // when a Object.keys is used on an instance of your class.
+    keys() {
+
+    }
+  }
+
+
 ```
 
 ## License

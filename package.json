@@ -38,5 +38,8 @@
   "install-this-global-to-develop": {
     "esenv": "^1.1.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "harmony-reflect": "^1.4.2"
+  }
 }
